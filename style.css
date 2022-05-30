@@ -1,24 +1,24 @@
 /* Basic Style */
-body {
+.wraper {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.details {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.details img {
     width: 100%;
 }
-.aaa .more_inf {
+.details .more_inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.details { text-align: center;
 }
 }
 .page-element {
@@ -138,11 +138,11 @@ ul li input[type=text] {
     display:none
 }
 
-ul li.editMode input[type=text] {
+ul li.edit_mode input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul li.editMode label {
+ul li.edit_mode label {
     display:none;
 }
